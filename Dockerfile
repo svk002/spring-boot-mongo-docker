@@ -7,7 +7,7 @@ RUN mkdir -p /opt/app
 ENV PROJECT_HOME /opt/app
 
 #It's copying the jar from jenkins under target directory
-COPY target/spring-boot-mongo-1.0.jar $PROJECT_HOME/spring-boot-mongo.jar
+COPY target/ShreyaSaran-2.0.jar $PROJECT_HOME/spring-boot-mongo.jar
 
 WORKDIR $PROJECT_HOME
 
